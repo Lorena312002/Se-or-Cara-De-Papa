@@ -1,0 +1,110 @@
+
+.contenedor{
+    position: relative;
+    width: 600px;
+    height: 600px;
+    background: rgb(117, 117, 241);
+    margin: 100px auto;
+    z-index: 0;
+    
+}
+
+.contenedor .hat{
+
+    position: absolute;
+    left: 35%;
+    top: 8%;
+    z-index: 5;
+    transition: 0.6s linear;
+    
+   
+    
+}
+
+
+.contenedor:hover .hat{
+
+    top: -10%;
+}
+
+
+
+
+
+.contenedor .foot-left{
+    position: absolute;
+    left: 33%;
+    top: 80%;
+   
+    z-index: 6;
+}
+
+.contenedor .foot-right{
+    position: absolute;
+    right: 20%;
+    top: 80%;
+   
+    z-index: 6;
+}
+
+.contenedor .face{
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    z-index: 7;
+}
+
+
+.contenedor .moustache{
+    position: absolute;
+    top: 60%;
+    right: 29%;
+    z-index: 10;
+}
+
+.contenedor .eye-left{
+    position: absolute;
+    top: 30%;
+    left: 42%;
+    z-index: 11;
+}
+
+.contenedor .eye-right{
+    position: absolute;
+    top: 30%;
+    right: 31%;
+    z-index: 11;
+}
+.contenedor .nose{
+    position: absolute;
+    right: 33%;
+    top: 40%;
+    transition: 0.6s linear;
+    z-index: 11;
+}
+
+.contenedor:hover .nose{
+
+    transform: translateX(-100px) rotate(89deg);
+}
+
+.contenedor .ear-left{
+    position: absolute;
+    left: 25%;
+    top: 27%;
+   
+    z-index: 7;
+}
+
+.contenedor .ear-right{
+    position: absolute;
+    right: 15%;
+    top: 27%;
+   
+    z-index: 7;
+}
+
+
+
+
+    
